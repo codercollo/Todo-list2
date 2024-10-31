@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>To Do App</title>
+  </head>
+  <body>
+    <section class="todo">
+       <h2>To-do List</h2>
+
+       <div class="input">
+        <input type="text" placeholder="Enter task.." 
+        class="input-field" id="todoInput"/>
+        <button class="addBtn">
+          <i class="material-icons">add</i>
+        </button>
+       </div>
+
+
+       <ul class="scroll">
+        <li id="todoList"></li>
+       </ul>
+
+       <div>
+         <hr class="counter"/>
+
+        <div class="counter-container">
+          <p><span>0 </span>items total</p>
+          <button id="deleteButton" class="deleteBtn">
+            <i class="material-icons">delete</i>
+          </button>
+          
+        </div>
+       </div>
+
+       
+
+      </section>
+      <footer>
+        <div class="footer">
+          <p class="made-by">
+            Made By
+          </p>
+          <p class="author">
+            Collins Maina
+          </p>
+        </div>
+      </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
